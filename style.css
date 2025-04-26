@@ -1,0 +1,82 @@
+
+style.css
+
+style.css
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fdf6f0;
+    color: #4e342e;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #8d6e63;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #d7ccc8;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #5d4037;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #a9745f;
+  }
+  
+  .hero {
+    padding: 40px;
+    text-align: center;
+    background-color: #efebe9;
+  }
+  
+  .hero input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    font-size: 16px;
+  }
+  
+  .section {
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .books {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .book {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .book img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #8d6e63;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+  }
